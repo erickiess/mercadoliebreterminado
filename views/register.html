@@ -40,8 +40,46 @@
             <li><a href="/register"> Creá tu cuenta</a><a>  </a></a> <i class="fa-solid fa-id-card"></i></li>
             <li><a href="/login"> Ingresá</a><a>  </a> <i class="fa-solid fa-right-to-bracket"></i></li>
             <li><a href "#"> Mis compras</a><a>  </a> <i class="fa-solid fa-cart-plus"></i></li> 
-
+        </ul>
         <main>
+            
+            <form action="/registro" method="POST">
+                 <label for="nombreyapellido">Nombre y apellido:</label>
+                <input type="text" name="Nombre y apellido" id="nombreyapellido" > <br>
+
+                <label for="nombreusuario">Nombre de usuario:</label>
+                <input type="text" name="Nombre de usuario" id="nombreusuario"> <br>
+
+                <label for="email">email:</label>
+                <input type="email" name="email" id="email"> <br>
+               
+                <div>Fecha de nacimiento</div>
+                <input type="date" name="fecha"> <br>
+
+                <label for="Domicilio">Domicilio:</label>
+                <input type="text" name="Domicilio" id="Domicilio"> <br>
+
+                <div>Perfil del usuario</div>
+                <label for="comprador">Comprador</label>
+                <input type="radio" name="comprador" value="Comprador">
+
+                <label for="Vendedor">Vendedor</label>
+                <input type="radio" name="Vendedor" value="Vendedor"><br>
+
+                <div>Intereses</div>
+                <label for="Electro">Electro</label>
+                <input type="checkbox" name="Electro"> <br>
+                <label for="Moda">Moda</label>
+                <input type="checkbox" name="Moda"> <br>
+                <label for="Hogar">Hogar</label>
+                <input type="checkbox" name="Hogar"><br>
+                <label for="Jugueteria">Jugueteria</label>
+                <input type="checkbox" name="Jugueteria"><br>
+
+
+                
+             </form>
+             
     </main>
 
     <footer>
