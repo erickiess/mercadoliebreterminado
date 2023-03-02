@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*header*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img{
+    max-width: 100%;
+}
+.logo_searchbar_lupa{
+    width: 100%;
+    align-items: left;
+    margin-left: 10%;
+}
+
+
+
+
+body { 
+    font-family: 'Roboto', sans-serif;
+    background-color: #EAC926;
+    
+    };
+   
+h2 { 
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.precios {font-size: 18px;}
+
+.descuentos {font-size: 16px;}
+
+
+
+.descripciones {
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    font-style: normal;
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+
+.cuerpo {font-size: 12px;}
+
+
+footer {text-align: center;}
+
+main { 
+    width: 90vw;
+    background-color:#ebebeb;
+    text-align: center;
+}
+
+/*propiedades para articulos en comun*/        
+article {
+    margin: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    max-width: 200px;
+   
+}
+
+.Caja-articulo {
+    position: relative;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.carrito_compras {
+    color: rgb(0, 150, 0,.9) ;
+    position: absolute;
+    right: 0%;
+    top: -20px;
+    padding: 5px;
+    border-width: 2px;
+    border-color:  rgb(0, 150, 0,.9);
+    border-style: solid;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+.precios{
+    width: 30%; 
+    box-sizing: border-box;
+    text-align: left 10px;
+}
+
+.descuentos{
+    width: 70%;
+    box-sizing: border-box;
+    
+    color: rgb(0, 150, 0, .9);
+    font-size: 16px;
+    font-weight: 550;   
+}
+
+.precios_descuentos{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    align-items: center;   
+}
+
+section {
+    justify-content: space-around;
+    display: flex;
+    
+    box-sizing: border-box;
+    text-align: center;
+}
+
+@media (min-width: 250px){
+    section {
+        justify-content: space-around;
+        display: flex;
+        
+        box-sizing: border-box;
+        text-align: center;
+        flex-wrap: wrap;
+    } 
+    article{max-width: 70%;}
+    .carrito_compras {font-size: 16px ;}
+    .precios {font-size: 16px;}
+    .descuentos {font-size: 16px ;}
+    .descripciones {font-size: 16px ;}
+    .burger-menu { 
+        color: white;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        background-color: #1259c3;;
+        box-sizing: border-box;
+        border-radius: 3px;
+        margin: 5px;
+} }
+/*queries tablet*/
+
+@media (min-width: 460px){
+    section {
+        justify-content: space-around;
+        display: flex;
+        
+        box-sizing: border-box;
+        text-align: center;
+        flex-wrap: wrap;
+    } 
+    article{max-width: 34%;}
+    .carrito_compras {font-size: 16px ;}
+    .precios {font-size: 16px;}
+    .descuentos {font-size: 16px ;}
+    .descripciones {font-size: 16px ;}
+
+    
+        .aladerecha {display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            justify-content: flex-end; margin-left: 5px;
+            font-size: 18px;
+            padding: 5px;
+            align-items: center;
+        ;}
+    
+            .alaizquierda {
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-items: center;
+                margin-right: 10px; 
+                font-size: 18px;
+                padding: 5px;
+                
+                }
+
+} 
+
+
+/*queries pc*/
+@media (min-width: 768px){
+    section {
+        justify-content: space-around;
+        display: flex;
+        
+        box-sizing: border-box;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    article{max-width: 22%;}
+    .carrito_compras {font-size: 16px ;}
+    .precios {font-size: 16px;}
+    .descuentos {font-size: 16px ;}
+    .descripciones {font-size: 16px ;}
+    .lista_hipervinculo {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px; padding-bottom: 10px;
+        }
+        .aladerecha {display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            margin-left: 5px;
+            font-size: 18px;
+            padding: 5px;
+            align-items: center;
+        }
+    
+            .alaizquierda {
+                list-style: none;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+                align-items: center;
+                margin-right: 10px; 
+                font-size: 18px;
+                padding: 5px;
+                
+                }
+}
+ .cajabusquedalupa {
+    align-items: center;
+    display: flex; 
+    padding: 10px 25px 10px 10px;
+    border-radius: 5px;
+    border: none;
+    gap: 10px;
+    
+}
+
